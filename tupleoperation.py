@@ -1,0 +1,13 @@
+tuple=('tuple',False,3,2,1)
+print(tuple)
+tuple=(1,2,3,4,5,6,5,4,3,2,1)
+print(tuple)
+tuple=tuple+(9,)
+print(tuple)
+tuple1=(10,20,40,30,50,60,10)
+print(tuple1.count(10))
+tuple2=(10,20,30,40,50,60,70,80,90,100)
+slice=tuple2[0:8]
+print(slice)
+slice1=tuple2[1:4]
+print(slice1)
